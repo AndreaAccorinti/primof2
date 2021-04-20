@@ -1,0 +1,13 @@
+@import '~@angular/material/theming';
+@include mat-core();
+$primary: mat-palette($mat-indigo);
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 25px;
+  background-color:mat-color($primary) ;
+  z-index: 2;
+  font-size: 18px;
+}
+
