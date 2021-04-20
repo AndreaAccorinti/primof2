@@ -11,14 +11,14 @@ export class TabellaComponent implements OnInit {
 
   utente: Utente[] = [];
 
-
-  page = 1;
-  pageSize = 10;
-
-  sortIconName = 'expand_less';
-  key = 'data';
-  reverse = true;
-  tabellaEsiste = true;
+  //
+  // page = 1;
+  // pageSize = 10;
+  //
+  // sortIconName = 'expand_less';
+  // key = 'data';
+  // reverse = true;
+  // tabellaEsiste = true;
   displayedColumns: string[] = ['position'];
 
   constructor(private utenteService: UtentiService) {
@@ -36,13 +36,13 @@ export class TabellaComponent implements OnInit {
     });
   }
 
-  sort(key: any): void {
-    this.key = key;
-    this.reverse = !this.reverse;
-    if (this.reverse) {
-      this.sortIconName = 'expand_more';
-    } else {
-      this.sortIconName = 'expand_less';
-    }
-  }
+  // sort(key: any): void {
+  //   this.key = key;
+  //   this.reverse = !this.reverse;
+  //   if (this.reverse) {
+  //     this.sortIconName = 'expand_more';
+  //   } else {
+  //     this.sortIconName = 'expand_less';
+  //   }
+  // }
 }
