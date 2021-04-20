@@ -19,7 +19,7 @@ export class TabellaComponent implements OnInit {
   // key = 'data';
   // reverse = true;
   // tabellaEsiste = true;
-  displayedColumns: string[] = ['position'];
+  displayedColumns: string[] = ['userId'];
 
   constructor(private utenteService: UtentiService) {
   }
