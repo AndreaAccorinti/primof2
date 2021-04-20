@@ -9,13 +9,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { TabellaComponent } from './tabella/tabella.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     F2Component,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    TabellaComponent
   ],
   imports: [
     BrowserModule,
